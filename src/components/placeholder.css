@@ -1,0 +1,3 @@
+.custom-placeholder::placeholder {
+    color: white; /* Change this to your desired placeholder color */
+  }
