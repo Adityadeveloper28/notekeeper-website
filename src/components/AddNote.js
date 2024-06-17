@@ -39,7 +39,7 @@ const AddNote = () => {
           </label>
           <input
             type="text"
-            class="form-control border-dark custom-placeholder bg-black "
+            class="form-control border-dark custom-placeholder bg-black text-white"
             id="exampleFormControlInput1"
             placeholder="Title"
             value={title}
@@ -52,7 +52,7 @@ const AddNote = () => {
           </label>
           <input
             type="text"
-            class="form-control border-dark custom-placeholder bg-black "
+            class="form-control border-dark custom-placeholder bg-black text-white"
             id="exampleFormControlInput2"
             placeholder="Tagline"
             value={tagline}
@@ -64,7 +64,7 @@ const AddNote = () => {
             Body
           </label>
           <textarea
-            class="form-control border-black custom-placeholder bg-black "
+            class="form-control border-black custom-placeholder bg-black text-white"
             id="exampleFormControlTextarea1"
             rows="3"
             value={body}
