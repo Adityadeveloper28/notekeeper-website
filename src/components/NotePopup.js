@@ -71,7 +71,6 @@ const NotePopup = ({ note, onClose, onSave, onDelete }) => {
           </div>
           <div className="modal-footer">
             <button type="button" className="btn btn-secondary" data-bs-dismiss="modal" onClick={onClose}>Close</button>
-            <button type="button" className="btn btn-dange display-none" style={{display:'none'}} onClick={handleDelete}>Delete</button>
             <button type="button" className="btn btn-primary" onClick={handleSave}>Save changes</button>
           </div>
         </div>
